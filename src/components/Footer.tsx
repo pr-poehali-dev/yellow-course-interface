@@ -11,10 +11,10 @@ const Footer = () => {
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                 <Icon name="GraduationCap" size={20} className="text-primary-foreground" />
               </div>
-              <span className="text-lg font-bold">LearnHub</span>
+              <span className="text-lg font-bold">EduFlow</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Платформа онлайн-образования для развития ваших навыков
+              Образовательная платформа нового поколения
             </p>
           </div>
 
@@ -36,9 +36,9 @@ const Footer = () => {
           <div className="space-y-4 animate-fade-in">
             <h3 className="font-semibold">Контакты</h3>
             <div className="space-y-2">
-              <a href="mailto:info@learnhub.ru" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+              <a href="mailto:support@eduflow.ru" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
                 <Icon name="Mail" size={16} />
-                info@learnhub.ru
+                support@eduflow.ru
               </a>
               <a href="tel:+79001234567" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
                 <Icon name="Phone" size={16} />
@@ -77,7 +77,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; 2024 LearnHub. Все права защищены.</p>
+          <p>&copy; 2024 EduFlow. Все права защищены.</p>
         </div>
       </div>
     </footer>
